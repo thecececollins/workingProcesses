@@ -6,13 +6,13 @@
 
 | Priority     | Task        | Ticket |Est Time of Completion| 
 |--------------|:-----------:|--------:|-------|
-|1| FileVault encryption for all Macs| [#100](https://github.banksimple.com/it/Casper/issues/100)|Early May|
-|2| Firewall enabled - implemented but not enforced (engineering may need to disable?)|[#107](https://github.banksimple.com/it/Casper/issues/107)| Early May|
-|3| Crowdstrike installed and functional|[#105](https://github.banksimple.com/it/Casper/issues/105)|Early May|
-|4| Password policy | [#72](https://github.banksimple.com/it/Casper/issues/72)|Late August|
-|5| Adding antivirus to all computers| [#109](https://github.banksimple.com/it/Casper/issues/109)|Oct|
-|6| Removing admin rights| [Milestone](https://github.banksimple.com/it/Casper/milestones/Removed%20Admin%20Rights)|Dec 2016|
-|7| Mobile Device Management| *Needs a Ticket* | Q1 2017|
+|1| FileVault encryption for all Macs | | |
+|2| Firewall enabled - implemented but not enforced (engineering may need to disable?) | | |
+|3| Crowdstrike installed and functional | | |
+|4| Password policy | | |
+|5| Adding antivirus to all computers | | |
+|6| Removing admin rights | | |
+|7| Mobile Device Management | | |
 
 ### Security's Roadmap
 
