@@ -1,4 +1,4 @@
-Enviorment Testing
+# Enviorment Testing
 Phase 2 is all about testing in our environment. As Phase 1 was about deployment and getting our build correct phase 2 is about getting our existing users into Jamf. We are still going to need to conduct tests from deployment but most of that has been done so far. Here you will find an outline of the goals of phase 1 along with a timeline for completion.
 
 --------------------------------------------------------------------------------
