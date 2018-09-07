@@ -2,7 +2,7 @@
 
 
 ---
-###Priority of work
+### Priority of work
 
 | Priority     | Task        | Ticket |Est Time of Completion| 
 |--------------|:-----------:|--------:|-------|
@@ -14,7 +14,7 @@
 |6| Removing admin rights| [Milestone](https://github.banksimple.com/it/Casper/milestones/Removed%20Admin%20Rights)|Dec 2016|
 |7| Mobile Device Management| *Needs a Ticket* | Q1 2017|
 
-###Security's Roadmap
+### Security's Roadmap
 
 | Priority     | Task        | Ticket |
 | ------------- |:-------------:| -----:|
