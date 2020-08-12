@@ -21,7 +21,7 @@ import csv
 from github import Github
 import os
 
-ORG_NAME = "NarrativeScience"
+ORG_NAME = "[companyname]"
 
 try:
     access_token = os.environ["GITHUB_TOKEN"]
