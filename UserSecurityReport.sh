@@ -36,7 +36,7 @@ $gam print users firstname lastname suspended is2svenrolled > ~/Google-UserRepor
 
 #Push this month's Google Apps report to AWS S3 bucket for Security team to access
 echo "Pushing this month's Google Apps report to AWS S3 bucket for Security team to access"
-aws2 s3 mv ~/Google-UserReport-$thisYear$thisMonth.csv s3://s3-ns-devops-secure/monthly_security_audit/
+aws2 s3 mv ~/Google-UserReport-$thisYear$thisMonth.csv s3://s3-[folder name]/monthly_security_audit/
 
 #Remove temporary Google Apps csv from computer
 echo "Removing temporary Google Apps csv from computer"
