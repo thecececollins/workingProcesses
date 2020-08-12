@@ -3,7 +3,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # This script will accomplish the following:
 # 			- Pull a list of users fpr each application with specific details
-#  			- Push the csv file to AWS s3://s3-ns-devops-secure/monthly_security_audit/
+#  			- Push the csv file to AWS s3://s3-[folder name]/monthly_security_audit/
 #  			- Delete the temporary csv from local location
 #
 #
@@ -11,10 +11,10 @@
 # 			- GAM configured
 # 			- AWS2 configured
 # 			- PyGithub configured
-#           - Github token added to ~/.bash_profile for ns-itadmin (can be found in 1Password TechOps vault)
+#           - Github token added to ~/.bash_profile
 #
-# Written by: Collins | IT Lead | Narrative Science
-# Edited by: Collins | IT Lead | Narrative Science
+# Written by: Collins
+# Edited by: Collins
 #
 # Created On: January 27th, 2020
 # Updated On: March 3, 2020
@@ -58,9 +58,9 @@ mv ~/cronScripts/all_columns_active_users.csv ~/AWS-AllColumnsUserReport-$thisYe
 
 #Push this month's AWS report to AWS S3 bucket for Security team to access
 echo "Pushing this month's AWS report to AWS S3 bucket for Security team to access"
-aws2 s3 mv ~/AWS-AllUserReport-$thisYear$thisMonth.csv s3://s3-ns-devops-secure/monthly_security_audit/
-aws2 s3 mv ~/AWS-ActiveUserReport-$thisYear$thisMonth.csv s3://s3-ns-devops-secure/monthly_security_audit/
-aws2 s3 mv ~/AWS-AllColumnsUserReport-$thisYear$thisMonth.csv s3://s3-ns-devops-secure/monthly_security_audit/
+aws2 s3 mv ~/AWS-AllUserReport-$thisYear$thisMonth.csv s3://s3-[folder name]/monthly_security_audit/
+aws2 s3 mv ~/AWS-ActiveUserReport-$thisYear$thisMonth.csv s3://s3-[folder name]/monthly_security_audit/
+aws2 s3 mv ~/AWS-AllColumnsUserReport-$thisYear$thisMonth.csv s3://s3-[folder name]/monthly_security_audit/
 
 
 #Remove temporary AWS csv from computer
@@ -83,7 +83,7 @@ mv ~/github_users.csv ~/Github-UserReport-$thisYear$thisMonth.csv
 
 #Push this month's Github report to AWS S3 bucket for Security team to access
 echo "Pushing this month's Github report to AWS S3 bucket for Security team to access"
-aws2 s3 mv ~/Github-UserReport-$thisYear$thisMonth.csv s3://s3-ns-devops-secure/monthly_security_audit/
+aws2 s3 mv ~/Github-UserReport-$thisYear$thisMonth.csv s3://s3-[folder name]/monthly_security_audit/
 
 #Remove temporary Github csv from computer
 echo "Removing temporary Github csv from computer"
